@@ -1,5 +1,5 @@
 import pandas as pd
-import io
+import io ##pega uma string e transforma em um arquivo para o pandas ler, sem precisar criar um arquivo físico no disco
 dados = '''concelho,ano,ganho_medio_mensal_euro
 Guimarães,2023,1247
 Braga,2023,1321
