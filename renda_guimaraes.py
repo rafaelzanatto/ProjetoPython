@@ -17,7 +17,7 @@ print(df['ganho_medio_mensal_euro'].describe())
 
 import matplotlib.pyplot as plt
 ##grafico de barras
-plt.bar(df['concelho'], df['ganho_medio_mensal_euro'], color='red')
+plt.bar(df['concelho'], df['ganho_medio_mensal_euro'], color='blue')
 plt.xlabel('Concelho')
 plt.ylabel('Ganho Médio Mensal (Euro)')
 plt.title('Renda Média Mensal por Concelho')
